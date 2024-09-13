@@ -1,4 +1,4 @@
-@import url(../Variables/Variables.css);
+@import url(../../Variables/Variables.css);
 
 .FondoRs__Lista{
   width: 800px;
@@ -24,7 +24,7 @@
   transition: opacity 5s ease;
 }
 .Imagenes:active .Imagen__Caja--imagen{
-  Content:url(../Imagenes/Rs\ Modificada.png);
+  Content:url(../../Imagenes/Rs\ Modificada.png);
 }
 
 /* Segundo */
@@ -67,7 +67,7 @@
   font-size: 15px;
 }
 .Imagenes:hover .Imagenes__Caja{
-  Content:url(../Imagenes/Pc\ Portatil\ 2.webp);
+  Content:url(../../Imagenes/Pc\ Portatil\ 2.webp);
 }
 .Imagenes__Subtitulo--Morado:hover{
   Color:var(--morado);
@@ -120,7 +120,7 @@ transition: 5s;
   transition: opacity 5s ease;
 }
 .Imagenes:hover .Imagen__Cajas{
-  Content:url(../Imagenes/Calavera.avif);
+  Content:url(../../Imagenes/Calavera.avif);
   transition: 5s;
 }
 .Imagen__text{
