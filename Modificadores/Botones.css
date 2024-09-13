@@ -1,0 +1,337 @@
+@import url(../Variables/Variables.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "raleway mono", "monospace";
+}
+
+body{
+  display: block;
+  background-image: url(fondocut.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* primer grupo de botones */
+.botones{
+  display:flex;
+  width: 430px;
+  height: 30px;
+  justify-content: space-around;
+  margin: 34px  auto;
+}
+.botones__lista--amarillo{
+  background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.botones__lista--amarillo:hover{
+   background-color: var(--beige);
+   color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.botones__lista--negroo{
+  background-color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    
+}
+.botones__lista--negroo:hover{
+   background-color: var(--beige);
+   color: var(--moradoo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+
+.botones__lista--verde{
+  background-color: var(--verde);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.botones__lista--verde:hover{
+   background-color: var(--beige);
+   color: var(--verdeo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+.botones__lista--rosado{
+  background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+     transition: transform 0.2s ease;
+}
+.botones__lista--rosado:hover{
+   background-color: var(--beige);
+   color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+button{
+    color: var(--blanco);
+     display: inline-block;
+    text-align: center;
+    align-items:flex-start; 
+}
+.button--border{
+  border-radius: 50px;
+}
+
+/* segundo grupo de botones */
+.Button{
+  display: inline-grid;
+  width: 400px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 18px  400px auto;
+}
+
+.Button__lista--marron{
+    background-color: var(--marron);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 1s;
+}
+.Button__lista--marron:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+    
+}
+
+.Button__lista--verdee{
+  background-color: var(--verde);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.Button__lista--verdee:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.Button__lista--negro{
+ background-color: var(--negro);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.Button__lista--negro:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.Button__lista--rojoo{
+ background-color: var(--rojo);
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  transition: width 1s;
+}
+.Button__lista--rojoo:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+}
+/* tercer grupo de botones */
+.Agrupacion{
+  display: inline-grid;
+  width: 400px;
+  height: 200px;
+  justify-content: space-around;
+  margin: 18px 600px auto;
+  
+}
+.Agrupacion__Botones--rosadop {
+    background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.Agrupacion__Botones--rosadop:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.Agrupacion__Botones--moradod {
+    background-color: var(--morado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 2s, transform 2s;
+}
+.Agrupacion__Botones--moradod:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.Agrupacion__Botones--verdeo {
+    background-color: var(--verde);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.Agrupacion__Botones--verdeo:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+
+.Agrupacion__Botones--amarillou {
+    background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+}
+.Agrupacion__Botones--amarillou:hover{
+  background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    width: 200px;
+     transform: rotate(180deg);
+}
+.botones--border{
+  border-radius: 15px;
+}
+
+/* cuarto grupo de botones */
+.Grupo{
+  display:flex;
+  width: 430px;
+  height: 30px;
+  justify-content: space-around;
+  margin: 50px  auto;
+}
+.Grupo__botton--negrow{
+  background-color: var(--negro);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+.Grupo__botton--negrow:hover{
+   background-color: var(--beige);
+   color: var(--negro);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.Grupo__botton--amarillow{
+  background-color: var(--amarillo);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    transition: width 2s, height 4s;
+}
+.Grupo__botton--amarillow:hover{
+   background-color: var(--beige);
+   color: var(--amarillo);
+    border: none;
+    cursor: pointer;
+     width: 100px;
+    height: 100px;
+    
+}
+.Grupo__botton--marronw {
+  background-color: var(--marron);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 4s;
+    
+}
+.Grupo__botton--marronw:hover{
+   background-color: var(--beige);
+   color: var(--marron);
+    border: none;
+    cursor: pointer;
+   width: 100px;
+    height: 100px;
+    
+}
+
+.Grupo__botton--rosaw{
+  background-color: var(--rosado);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+   transition: width 2s, height 4s;
+}
+.Grupo__botton--rosaw:hover{
+   background-color: var(--beige);
+   color: var(--rosado);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    
+}
+.botton{
+    color: var(--blanco);
+     display: inline-block;
+    text-align: center;
+    align-items:flex-start; 
+}
+
+.botton--border{
+  border-radius: 5px;
+}

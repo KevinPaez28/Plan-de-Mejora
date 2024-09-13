@@ -1,0 +1,137 @@
+@import url(../Variables/Variables.css);
+
+.FondoRs__Lista{
+  width: 800px;
+  height: 500px;
+  border: 1px solid  var(--negro);
+  margin: 0px auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--gris);
+}
+.FondoRs__Lista--azul:active{
+  background-color: var(--azul);
+  transition: 5s;
+} 
+.Imagen__Caja--imagen{
+  width: 550px;
+  height: 450px;
+  transition: opacity 5s ease;
+}
+.Imagenes:active .Imagen__Caja--imagen{
+  Content:url(../Imagenes/Rs\ Modificada.png);
+}
+
+/* Segundo */
+.FondoPc{
+  width: 800px;
+  height: 500px;
+  border: 1px solid  var(--negro);
+  margin: 0px auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--gris);
+  
+}
+.Imagenes__Caja{
+  width: 500px;
+  height: 400px;
+  transition: opacity 5s ease;
+  
+}
+.Imagenes{
+  display:inline-block;
+  position: relative;
+}
+.Imagenes__Titulo{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    color:var(--rojo);
+    font-size: 20px;
+}
+.Imagenes__Subtitulo{
+  position: absolute;
+  top: 75%;
+  right: 70%;
+  color: var(--negro);
+  font-size: 15px;
+}
+.Imagenes:hover .Imagenes__Caja{
+  Content:url(../Imagenes/Pc\ Portatil\ 2.webp);
+}
+.Imagenes__Subtitulo--Morado:hover{
+  Color:var(--morado);
+  font-size:20px;
+  transition: 3s;
+}
+/* Tercero */
+.Araña{
+  width: 800px;
+  height: 500px;
+  border: 1px solid  var(--negro);
+  margin: 0px auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: var(--gris);
+}
+.Imagen__Caja{
+  width: 500px;
+  height: 400px;
+  transition: opacity 5s ease;
+}
+
+.Imagen__Caja--border:hover{
+/*box-shadow: 0px 0px 10px 0px yellow;*/
+filter: drop-shadow(0px 0px 60px var(--rojo));
+width: 550px;
+height:450px;
+transition: 5s;
+ }
+ /* Cuarto */
+ .Calavera{
+  width: 800px;
+  height: 500px;
+  border: 1px solid  var(--negro);
+  margin: 0px auto;
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: var(--gris);
+}
+.Imagen__Cajas{
+  width: 500px;
+  height: 400px;
+  transition: opacity 5s ease;
+}
+.Imagenes:hover .Imagen__Cajas{
+  Content:url(../Imagenes/Calavera.avif);
+  transition: 5s;
+}
+.Imagen__text{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.Imagenes:hover .Imagen__text--Subrayado{
+  width: 175px;
+  height: 50px;
+  border-bottom: 1px solid var(--negro);
+  color:var(--azul);
+}

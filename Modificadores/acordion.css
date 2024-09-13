@@ -1,0 +1,64 @@
+@import url(../Variables/Variables.css);
+
+.Acordion{
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top:15px;
+}
+.Acordion__lista{
+  width: 400px;
+  height:35px;
+  
+}
+.Acordion__content {
+  display: none;
+}
+.Acordion__lista:hover + .Acordion__content {
+  display: block;
+  padding: 10px;
+  background-color: var(--gris);
+}
+.Acordion__lista--verde{
+  background-color:var(--rojo);
+}
+.Acordion__lista--verde:hover{
+  background-color: var(--verde);
+  transition: 2s;
+}
+
+.Acordion__lista--amarillo{
+  background-color:var(--azul);
+}
+.Acordion__lista--amarillo:hover{
+  background-color: var(--amarillo);
+  font-size: 10px;
+  transition: 2s;
+}
+
+.Acordion__content--morado{
+  background-color:var(--marron);
+}
+.Acordion__lista:active + .Acordion__content--morado{
+  background-color: var(--morado);
+  transition: 2s;
+  font-size: 20px;
+}
+
+.Acordion__lista--aguamarina{
+  background-color:var(--rosado);
+}
+.Acordion__lista--aguamarina:active{
+ background-color: var(--negro);
+ color:var(--blanco);
+ transition: 3s;
+ font-size:15px;
+}
+.Acordion__lista:active + .Acordion__content--negro{
+  background-color: var(--aguamarina);
+  transition: 2s;
+  font-size: 20px;
+
+}
+
+

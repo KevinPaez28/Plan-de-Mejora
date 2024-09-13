@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --beige: #dcf05d;
+  --amarillo: #ceae30;
+  --morado: #a612e6;
+  --gris: #a1a1a1;
+  --marron: #422f11;
+  --azul: #0827b1;  
+  --rosado: #9e1845;
+  --verde: #0f8128;
+  --aguamarina: #09d6cc;
+  --blanco: #fff;
+  --negro: #000;
+  --rojo: #8a0a01;
+}

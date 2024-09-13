@@ -1,0 +1,87 @@
+@import url(../Variables/Variables.css);
+.Contenedor{
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+}
+.Menu{
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 100px;
+
+}
+.Menu__button{
+  position: relative;
+  width: 150px;
+  height: 50px;
+}
+.Menu__Content{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+}
+.Menu:hover .Menu__Content{
+  display: block;
+}
+.Menu__Content a{
+   display: block;
+  color: var(--negro);
+  padding: 5px;
+  text-decoration: none;
+}
+.Menu__Content a:hover{
+  color: #FFFFFF;
+  background-color: var(--aguamarina);
+}
+
+/* Modificaciones */
+
+.Menu__button--Rojo{
+  background-color:var(--rojo);
+}
+.Menu__button--Rojo:hover{
+  background-color:var(--azul);
+  color:var(--blanco);
+}
+/* Segundo Componente */
+.Menu__button--azul{
+  background-color:var(--gris);
+  font-size: 20px;
+}
+
+.Menu__Content--verde{
+  background-color: var(--marron);
+  font-size:20px;
+  
+}
+.Menu__Content--verde:hover{
+  font-size:15px;
+  transition: 3s;
+}
+/*Tercer Componente */
+.Menu__button--amarillo{
+  background-color:var(--gris);
+  font-size: 20px;
+}
+.Menu__button--amarillo:hover{
+  background-color:var(--amarillo);
+  font-size: 15px;
+  transition: 3s;
+}
+
+/* Cuarto Componente */
+
+.Menu--Color:hover{
+
+  background-color:var(--rosado);
+  color:var(--marron);
+  transition: 2s;
+  width: 200px;
+  height: 150px;
+}
+.Menu__Content--text a:hover{
+  background-color: var(--negro);
+  color:var(--blanco);
+}

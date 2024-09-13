@@ -1,0 +1,295 @@
+@import url(Variables/Variables.css);
+.Titulo{
+  height: 50px;
+  margin:10px auto;
+  width: 150px;
+  padding: 5px;
+  font-size: 15px;
+  color:var(--morado)
+}
+
+.Content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:250px;
+}
+.Menu{
+  width:80px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Menu__Link{
+  display: block;
+  text-decoration: none; 
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 300px;
+  height:50px;
+  margin:5px;
+}
+.Menu--verde{
+  background-color: var(--verde);
+  color: var(--blanco);
+  border: solid 1px var(--verde);
+  cursor: pointer;
+}
+.Menu--verde:hover{
+  background-color: var(--blanco);
+  color: var(--verde);
+   border: solid 1px var(--blanco);
+}
+
+
+
+.Menu--rojo{
+  background-color: var(--rojo);
+  color: var(--blanco);
+  border: solid 1px var(--rojo);
+  cursor: pointer;
+}
+.Menu--rojo:hover{
+  background-color: var(--blanco);
+  color: var(--rojo);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--azul{
+  background-color: var(--azul);
+  color: var(--blanco);
+  border: solid 1px var(--azul);
+  cursor: pointer;
+}
+.Menu--azul:hover{
+  background-color: var(--blanco);
+  color: var(--azul);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--amarillo{
+  background-color: var(--amarillo);
+  color: var(--blanco);
+  border: solid 1px var(--amarillo);
+  cursor: pointer;
+}
+.Menu--amarillo:hover{
+  background-color: var(--blanco);
+  color: var(--amarillo);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--marron{
+  background-color: var(--marron);
+  color: var(--blanco);
+  border: solid 1px var(--marron);
+  cursor: pointer;
+}
+.Menu--marron:hover{
+  background-color: var(--blanco);
+  color: var(--marron);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--gris{
+  background-color: var(--gris);
+  color: var(--blanco);
+  border: solid 1px var(--gris);
+  cursor: pointer;
+}
+.Menu--gris:hover{
+  background-color: var(--blanco);
+  color: var(--gris);
+   border: solid 1px var(--blanco);
+}
+
+
+
+.Menu--beige{
+  background-color: var(--beige);
+  color: var(--blanco);
+  border: solid 1px var(--beige);
+  cursor: pointer;
+}
+.Menu--beige:hover{
+  background-color: var(--blanco);
+  color: var(--beige);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--negro{
+  background-color: var(--negro);
+  color: var(--blanco);
+  border: solid 1px var(--negro);
+  cursor: pointer;
+}
+.Menu--negro:hover{
+  background-color: var(--blanco);
+  color: var(--negro);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--aguamarina{
+  background-color: var(--aguamarina);
+  color: var(--blanco);
+  border: solid 1px var(--aguamarina);
+  cursor: pointer;
+}
+.Menu--aguamarina:hover{
+  background-color: var(--blanco);
+  color: var(--aguamarina);
+   border: solid 1px var(--blanco);
+}
+
+
+.Menu--morado{
+  background-color: var(--morado);
+  color: var(--blanco);
+  border: solid 1px var(--morado);
+  cursor: pointer;
+}
+.Menu--morado:hover{
+  background-color: var(--blanco);
+  color: var(--morado);
+   border: solid 1px var(--blanco);
+}
+
+/* Menu Inferior */
+
+.Contenedor{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:row;
+gap:5px
+}
+.Menu__Inferior--morado{
+  width: 100px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+.Menu__Inferior--verde{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+.Menu__Inferior--verde:active{
+  background-color: var(--verde);
+  
+}
+
+.Menu__Inferior--rojo{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--rojo:active{
+  background-color: var(--rojo);
+
+}
+.Menu__Inferior--azul{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--azul:active{
+  background-color: var(--azul);
+
+}
+.Menu__Inferior--amarillo{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--amarillo:active{
+  background-color: var(--amarillo);
+
+}
+.Menu__Inferior--marron{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--marron:active{
+  background-color: var(--marron);
+
+}
+.Menu__Inferior--gris{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--gris:active{
+  background-color: var(--gris);
+
+}
+.Menu__Inferior--beige{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--beige:active{
+  background-color: var(--beige);
+
+}
+.Menu__Inferior--negro{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+
+}
+.Menu__Inferior--aguamarina{
+  width: 30px;
+  height: 28px;
+  background-color: var(--gris);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+
+
+

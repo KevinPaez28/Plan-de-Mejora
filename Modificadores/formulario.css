@@ -1,0 +1,104 @@
+@import url(../Variables/Variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+.formulario {
+ max-width: 400px;
+ margin: auto;
+ padding: 20px;
+ border: 1px solid var(--gris);
+ border-radius: 8px;
+ background-color: var(--blanco);
+ margin:10px;
+ display: inline-block;
+}
+
+.formulario label {
+ display: block;
+ margin-bottom: 8px;
+ font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"] {
+width: 100%;
+padding: 12px;
+margin-bottom: 10px;
+border: 1px solid var(--gris);
+border-radius: 4px;
+}
+
+.formulario input[type="submit"] {
+ background-color: var(--verde);
+ color: var(--blanco);
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ border-radius: 4px;
+}
+
+.formulario input[type="submit"]:hover {
+background-color:var(--verde);
+}
+
+/* Primer Componente */
+.formulario{
+ background-color: var(--amarillo);
+ color:var(--azul);
+}
+.formulario--rojo:hover{
+  background-color: var(--rojo);
+ color:var(--azul);
+ transition: 2s;
+}
+/* segundo Componente */
+.Nombre__form{
+  background-color: var(--rojo);
+  color:var(--morado);
+}
+.Nombre__form--verde:hover{
+  background-color: var(--verde);
+  color:var(--aguamarina);
+}
+
+.Correo__form{
+ background-color:var(--rojo);
+ color:var(--morado);
+}
+.Correo__form--verde:hover{
+ background-color:var(--verde);
+ color:var(--aguamarina);
+}
+
+.Contraseña__form{
+  background-color: var(--rojo);
+  color:var(--morado);
+}
+.Contraseña__form--verde:hover{
+  background-color: var(--verde);
+  color:var(--aguamarina);
+}
+
+/* Tercer Componente */
+
+.formulario{
+ background-color: var(--amarillo);
+ color:var(--azul);
+}
+.formulario--Grande:hover{
+ font-size:30px;
+ transition:3s;
+ color:var(--azul);
+ font-family: "Playwrite CU", cursive;
+}
+
+/* Cuarto Formulario */
+.formulario{
+ background-color: var(--amarillo);
+ color:var(--azul);
+}
+.formulario--Block:hover{
+  background-color: var(--marron);
+  color:var(--morado);
+  cursor: not-allowed;
+}

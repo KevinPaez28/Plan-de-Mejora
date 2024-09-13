@@ -1,0 +1,47 @@
+@import url(../Variables/Variables.css);
+.insignias{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.insignia__texto{
+  display: inline-block ;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: var(--beige);
+  color: var(--marron);
+  
+}
+.insignia__texto--rojo{
+  background-color: var(--gris);
+}
+.insignia__texto--rojo:hover{
+  background-color: var(--rojo);
+  cursor: pointer;
+}
+.insignia__texto--grande{
+  background-color: var(--verde);
+}
+.insignia__texto--grande:hover{
+  cursor: pointer;
+  background-color: var(--verde);
+  border-radius: 1rem;
+  transition: 2s;
+  font-size: 85%;
+}
+.insignia__texto--blanco{
+  background-color: var(--negro);
+}
+.insignia__texto--blanco:hover{
+  cursor: pointer;
+  background-color: var(--blanco);
+  color: var(--negro);
+  border: 1px solid var(--negro);
+  transition: 1s;
+}

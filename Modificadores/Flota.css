@@ -1,0 +1,75 @@
+@import url(../Variables/Variables.css);
+
+.redes{
+  margin: auto;
+  width: 450px;
+  height: 100px;
+  background-color:var(--blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px var(--negro);
+}
+
+.Logo__lista{
+  width: 80px;
+  height: 70px;
+  background-color: var(--gris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .3s;
+}
+.Logo__lista--Morado:hover {
+  background-color: var(--rosado);
+  transition-duration: .3s;
+  width: 500px;
+}
+/* twitter*/
+.Logo__lista--azul:hover {
+  background-color: var(--aguamarina);
+  transition-duration: .3s;
+}
+/* linkdin*/
+.Logo__lista--grande:hover {
+  background-color: var(--azul);
+  transition-duration: .3s;
+  width: 120px;
+  height: 120px;
+
+}
+/* Whatsapp*/
+.Logo__lista--transition:hover{
+  background-color: var(--verde);
+  transition-duration: .3s;
+  width: 60px;
+  height: 60px;
+}
+
+
+.Logo__lista:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.Imagenes {
+  width: 17px;
+}
+
+.Logo__lista:hover .Imagenes {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top { /*Fotogramas clave se define las etapas intermedias de una animacion   */
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,133 @@
+@import url(../Variables/Variables.css);
+.Contenedor{
+  width: 300px;
+  height: 260px;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+ 
+}
+.Contenedor__Lista--transicion {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: var(--negro);
+  border: 1px solid var(--rosado);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contenedor__Lista--transicion:hover {
+  flex: 4;
+}
+.Contenedor__Lista--transicion  {
+  min-width: 14em;
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color:var(--morado);
+}
+
+.Contenedor__Lista--transicion:hover {
+  transform: rotate(0);
+}
+
+/* Segundo Hover */
+.Contenedor__Lista--TextoGrande{
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: var(--negro);
+  border: 1px solid var(--rosado);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contenedor__Lista--TextoGrande:hover {
+  flex: 4;
+}
+.Contenedor__Lista--TextoGrande  {
+  min-width: 14em;
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color:var(--morado);
+  
+  
+}
+.Contenedor__Lista--TextoGrande:hover {
+  transform: rotate(0);
+  font-size: 30px;
+}
+
+/* tercer hover*/
+.Contenedor__Lista--Giro360 {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: var(--negro);
+  border: 1px solid var(--rosado);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contenedor__Lista--Giro360:hover {
+  flex: 4;
+}
+.Contenedor__Lista--Giro360  {
+  min-width: 14em;
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-270deg);
+  transition: all .9s;
+  text-transform: uppercase;
+  color:var(--morado);
+}
+
+.Contenedor__Lista--Giro360:hover {
+  transform: rotate(0);
+}
+/* Cuarto Hover */
+.Contenedor__Lista--Verde{
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: var(--negro);
+  border: 1px solid var(--rosado);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contenedor__Lista--Verde:hover {
+  flex: 4;
+}
+.Contenedor__Lista--Verde{
+  min-width: 14em;
+  padding: 10px;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .9s;
+  text-transform: uppercase;
+  color:var(--morado);
+}
+
+.Contenedor__Lista--Verde:hover {
+  transform: rotate(0);
+  background-color: var(--verde);
+}
